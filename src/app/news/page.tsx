@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export default function NewsPage() {
-  return (
-    <div>News Page</div>
-  )
+  return <div>News Page</div>;
 }

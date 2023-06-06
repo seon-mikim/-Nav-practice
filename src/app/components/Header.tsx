@@ -1,7 +1,15 @@
-import React from 'react'
+// import React from 'react'
+// import HeaderItem from './HeaderItem'
+// import {MdArrowBackIos} from 'react-icons/md'
 
-export default function Header() {
-  return (
-    <div>Header</div>
-  )
-}
+// export interface HeaderProps {
+//     headerTitle: string
+
+ 
+// }
+
+// export default function Header({headerTitle}: HeaderProps) {
+//   return (
+//     <HeaderItem LeftIcon ={MdArrowBackIos} headerTitle={headerTitle} />
+//   )
+// }
