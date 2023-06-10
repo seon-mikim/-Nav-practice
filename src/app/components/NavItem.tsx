@@ -1,5 +1,7 @@
 'use client';
 
+import { SvgIconTypeMap } from '@mui/material';
+import { OverridableComponent } from '@mui/material/OverridableComponent';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { IconType } from 'react-icons/lib';
@@ -8,9 +10,15 @@ interface NavItemProps {
   navItem: {
     pathName: string;
     name: string;
-    Icon: IconType;
+    Icon: ;
   };
 }
+
+// interface TestMuiIconProps {
+//   Icon: OverridableComponent<SvgIconTypeMap<{}, "svg">> & {
+//     muiName: string;
+// }
+// }
 
 export default function NavItem({ navItem }: NavItemProps) {
   const pathName = usePathname();

@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import NavItem from './NavItem';
 import { NavItemData } from '@/constants/NavItemData';
 
+
 export default function Navbar() {
   const pathname = usePathname();
   const notRenderNavItem = pathname !== '/signup' && pathname !== '/login';
